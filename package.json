@@ -1,0 +1,27 @@
+{
+  "name": "reactwebpackstartup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawelkolec/reactWebpackStartup.git"
+  },
+  "author": "pawel.kolec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pawelkolec/reactWebpackStartup/issues"
+  },
+  "homepage": "https://github.com/pawelkolec/reactWebpackStartup#readme",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development node server"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "cross-env": "^3.1.4",
+    "express": "^4.14.1",
+    "ip": "^1.1.4",
+    "minimist": "^1.2.0",
+    "ngrok": "^2.2.6"
+  }
+}
